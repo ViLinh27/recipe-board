@@ -58,6 +58,8 @@ Lunch
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 high protein egg sandwich: https://www.instagram.com/p/CcGvQ51jDBb/ ,
 stir fried eggs and tomatoes: https://www.instagram.com/p/CR1uknLj4x5/ ,
+carbonara udon: https://www.instagram.com/p/CRcAArgDP8Y/ ,
+kimchi fried rice: https://www.instagram.com/p/CRMgdwWjyaH/ ,
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Dinner
@@ -77,6 +79,7 @@ Desserts
 microwave chocolate cake: https://www.instagram.com/p/CaCziaNq2t0/ ,
 vegan cheese cake: https://www.instagram.com/p/CXgebuLrvie/ ,
 taho (brown sugar filipino sweet tofu dessert): https://www.instagram.com/p/CTP6ObGpTNN/ ,
+biko (filipino sticky rice dessert) : https://www.instagram.com/p/CRo5Qt_jH-e/ ,
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 Snacks
