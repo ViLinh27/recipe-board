@@ -1,0 +1,22 @@
+/* styles */
+.pageStyles {
+  color: "#232129";
+  padding: 96;
+  fontfamily: "-apple-system, Roboto, sans-serif, serif";
+}
+.headingStyles {
+  margintop: 0;
+  marginbottom: 64;
+  maxwidth: 320;
+}
+
+.paragraphStyles {
+  marginbottom: 48;
+}
+
+.linkStyle {
+  color: "#8954A8";
+  fontweight: "bold";
+  fontsize: 16;
+  verticalalign: "5%";
+}
