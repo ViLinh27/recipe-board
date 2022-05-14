@@ -1,20 +1,26 @@
-import * as React from "react"
-import "../styles.css"
-
+import * as React from "react";
+import "../styles.css";
+//components
+import Navbar from "./components/Navbar";
 
 // markup
 const IndexPage = () => {
   return (
     <main className="pageStyles">
       <title>Home Page</title>
-      <h1 className="headingStyles">
-       horizontal navbar here
-       tabs with different sites
-        
-      </h1>
-      <p className="paragraphStyles">
-        intro blurb
-      </p>
+      <div className="navbar">
+        <Navbar/>
+      </div>
+
+      <div className="mainbody">
+        <h1 className="headingStyles">
+          heading
+        </h1>
+        <p className="paragraphStyles">
+          intro blurb
+        </p>
+      </div>
+      
       
     </main>
   )
