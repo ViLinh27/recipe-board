@@ -1,22 +1,23 @@
 /* styles */
+* {
+  margin: 0;
+  padding: 0;
+}
 .pageStyles {
   color: "#232129";
   padding: 96;
-  fontfamily: "-apple-system, Roboto, sans-serif, serif";
+  font-family: "-apple-system, Roboto, sans-serif, serif";
 }
 .headingStyles {
-  margintop: 0;
-  marginbottom: 64;
-  maxwidth: 320;
+  text-align: center;
 }
 
 .paragraphStyles {
-  marginbottom: 48;
 }
 
 .linkStyle {
   color: "#8954A8";
-  fontweight: "bold";
-  fontsize: 16;
-  verticalalign: "5%";
+  font-weight: "bold";
+  font-size: 16;
+  vertical-align: "5%";
 }
