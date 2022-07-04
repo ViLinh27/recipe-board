@@ -11,10 +11,19 @@
 #7b9e89 morning blue
 #b84a62 popstar 
 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 .navbar {
     background-color: #db995a;
 
+    &__buttons {
+        font-family: 'Nunito', sans-serif;
+        background-color: inherit;
+        border: none;
+        margin: 1rem;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
 }
 
 /*responsivness*/
@@ -22,4 +31,16 @@
 
 @media only screen and (max-width: 428px) {}
 
-@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 375px) {
+    .navbar {
+        &__buttons {
+            /* font-family: 'Nunito', sans-serif;
+            background-color: inherit;
+            border: none; */
+            margin: 0.3rem;
+            // text-transform: uppercase;
+            font-size: 1rem;
+        }
+    }
+
+}

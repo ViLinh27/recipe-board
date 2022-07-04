@@ -57,5 +57,15 @@
 @media only screen and (max-width: 428px) {}
 
 @media only screen and (max-width: 375px) {
-  
+  .headingStyles {
+    font-weight: 600;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem 0.25rem;
+    font-size: 2.5rem;
+  }
+
+  .paragraphStyles {
+    font-size: 0.75rem;
+    margin: 0.5rem;
+  }
 }
