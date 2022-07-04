@@ -11,7 +11,13 @@ const Navbar = () => {
   const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
   return (
     <AppBar position="static" class="navbar">
-      <Toolbar>Navbar</Toolbar>
+      <Toolbar>
+            {navItems.map((item)=>(
+              <Button key={item}>
+                {item}
+              </Button>
+            ))}
+      </Toolbar>
     </AppBar>
   );
 };export default Navbar;
