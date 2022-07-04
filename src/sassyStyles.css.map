@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,OAAO,CAAC,mEAAI;AAEZ,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;CAEpC",
+    "mappings": "AAAA,2BAA2B",
     "sources": [
         "sassyStyles.scss"
     ],

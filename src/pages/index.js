@@ -15,7 +15,7 @@ const IndexPage = () => {
 
       <div className="mainbody">
         <h1 className="headingStyles">
-          heading
+          Welcome to Canasian Recipe Board.
         </h1>
         <p className="paragraphStyles">
           intro blurb

@@ -1,21 +1,22 @@
-/* styles */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* basic styles */
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Nunito', sans-serif;
 }
+
 .pageStyles {
   color: "#232129";
   padding: 96;
 }
-.navbar {
-}
-.main-body {
-}
+
 .headingStyles {
   text-align: center;
 }
 
 .paragraphStyles {
+  margin: 0 2rem;
 }
 
 .linkStyle {
