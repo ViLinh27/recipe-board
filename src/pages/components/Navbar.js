@@ -8,7 +8,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 const Navbar = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" class="navbar">
       <Toolbar>Navbar</Toolbar>
     </AppBar>
   );
