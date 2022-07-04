@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,2BAA2B",
+    "mappings": "AAAA,2BAA2B;AAC3B;;;;;;;;;;;EAWE",
     "sources": [
         "sassyStyles.scss"
     ],
