@@ -4199,6 +4199,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+
+
 const Navbar = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_1__["default"], {
     position: "static"
@@ -4224,7 +4229,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles.css */ "./src/styles.css");
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Navbar */ "./src/pages/components/Navbar.js");
+/* harmony import */ var _sassyStyles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sassyStyles.css */ "./src/sassyStyles.css");
+/* harmony import */ var _sassyStyles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sassyStyles_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Navbar */ "./src/pages/components/Navbar.js");
+
 
  //components
 
@@ -4235,7 +4243,7 @@ const IndexPage = () => {
     className: "pageStyles"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Home Page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "navbar"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mainbody"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     className: "headingStyles"
@@ -7500,6 +7508,16 @@ function getDynamicStyles(styles) {
 var index = createJss();
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (index);
+
+
+
+/***/ }),
+
+/***/ "./src/sassyStyles.css":
+/*!*****************************!*\
+  !*** ./src/sassyStyles.css ***!
+  \*****************************/
+/***/ (() => {
 
 
 
