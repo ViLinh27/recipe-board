@@ -20,7 +20,8 @@ const IndexPage = () => {
           Welcome to Canasian Recipe Board.
         </Typography>
         <Typography variant="p" className="paragraphStyles">
-          intro blurb
+          Hello! This website will be used to store cool looking recipes that
+          will realistically never be made...Maybe one day though....
         </Typography>
       </div>
       
