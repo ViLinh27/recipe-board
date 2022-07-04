@@ -7,6 +7,8 @@ import Button from '@material-ui/core/Button';
 import MenuIcon from '@material-ui/icons/Menu';
 
 const Navbar = () => {
+
+  const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
   return (
     <AppBar position="static" class="navbar">
       <Toolbar>Navbar</Toolbar>
