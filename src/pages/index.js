@@ -3,6 +3,8 @@ import "../styles.css";
 import "../sassyStyles.css"
 //components
 import Navbar from "./components/Navbar";
+//material ui
+import Typography from '@material-ui/core/Typography';
 
 // markup
 const IndexPage = () => {
@@ -14,12 +16,12 @@ const IndexPage = () => {
       </div>
 
       <div className="mainbody">
-        <h1 className="headingStyles">
+        <Typography variant="h1" className="headingStyles">
           Welcome to Canasian Recipe Board.
-        </h1>
-        <p className="paragraphStyles">
+        </Typography>
+        <Typography variant="p" className="paragraphStyles">
           intro blurb
-        </p>
+        </Typography>
       </div>
       
       

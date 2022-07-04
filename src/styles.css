@@ -5,26 +5,33 @@
   margin: 0;
   padding: 0;
 
-  font-family: 'Nunito', sans-serif;
-  color: #252627;
 }
 
 .pageStyles {
+  font-family: 'Nunito', sans-serif;
   color: "#232129";
   padding: 96;
 }
 
 .headingStyles {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
   text-align: center;
+  color: #252627;
 }
 
 .paragraphStyles {
+  font-family: 'Nunito', sans-serif;
   margin: 0 2rem;
+  font-weight: 400;
+  color: #252627;
+  font-size: 1rem;
 }
 
 .linkStyle {
-  color: "#8954A8";
+  color: #7b9e89;
+   
   font-weight: "bold";
-  font-size: 16;
+  font-size: 1rem;
   vertical-align: "5%";
 }
