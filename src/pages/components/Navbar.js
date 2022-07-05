@@ -11,7 +11,7 @@ import {
   MenuItem, 
   useState} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-
+import Link from 'gatsby';
 import "../../sassyStyles.css";
 
 const Navbar = () => {
