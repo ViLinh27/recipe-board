@@ -76,10 +76,9 @@ const Navbar = () => {
           {/*Desktop View*/}
           <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
               {navItems.map((item)=>(
-                <Button 
+                  <Button 
                   key={item} 
-                  class="navbar__buttons" 
-                  onClick={handleCloseNaMenu}
+                  class="navbar__buttons"
                   sx={{my:2,color:"white",display:"block"}}>
                   <Typography textAlign="center">
                     {item}
@@ -87,6 +86,26 @@ const Navbar = () => {
                 </Button>
               ))}
           </Box>
+          {/* <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
+              <Button class="navbar__buttons" 
+                  onClick={handleCloseNaMenu}
+                  sx={{my:2,color:"white",display:"block"}}>navItems[0]</Button>
+              <Button class="navbar__buttons" 
+                  onClick={handleCloseNaMenu}
+                  sx={{my:2,color:"white",display:"block"}}>navItems[1]</Button>
+              <Button class="navbar__buttons" 
+                  onClick={handleCloseNaMenu}
+                  sx={{my:2,color:"white",display:"block"}}>navItems[2]</Button>
+              <Button class="navbar__buttons" 
+                  onClick={handleCloseNaMenu}
+                  sx={{my:2,color:"white",display:"block"}}>navItems[3]</Button>
+              <Button class="navbar__buttons" 
+                  onClick={handleCloseNaMenu}
+                  sx={{my:2,color:"white",display:"block"}}>navItems[4]</Button>
+              <Button class="navbar__buttons" 
+                  onClick={handleCloseNaMenu}
+                  sx={{my:2,color:"white",display:"block"}}>{navItems[5]}</Button>
+          </Box> */}
               
         </Toolbar>
       </Container>

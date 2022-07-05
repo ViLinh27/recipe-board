@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 //material ui
 import Typography from '@material-ui/core/Typography';
 
+import Link from 'gatsby';
+
 // markup
 const IndexPage = () => {
   return (
@@ -30,9 +32,7 @@ const IndexPage = () => {
           it is nice to spend time making an elaborate recipe though. The tedious
           part is just washing the dishes after that in a tiny sink.
         </Typography>
-      </div>
-      
-      
+      </div>      
     </main>
   )
 }
