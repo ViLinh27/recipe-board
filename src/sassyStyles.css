@@ -1,0 +1,38 @@
+/* more advanced stylings*/
+/*
+-style guide
+
+--primary
+#252627 eerie black
+#db995a persian orange
+
+--secondary
+#f5f5f5 light grey
+#7b9e89 morning blue
+#b84a62 popstar 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+.navbar {
+  background-color: #db995a;
+}
+
+.navbar__buttons {
+  font-family: 'Nunito', sans-serif;
+  background-color: inherit;
+  border: none;
+  margin: 1rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+/*responsivness*/
+@media only screen and (max-width: 375px) {
+  .navbar__buttons {
+    /* font-family: 'Nunito', sans-serif;
+            background-color: inherit;
+            border: none; */
+    margin: 0.3rem;
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=sassyStyles.css.map */
