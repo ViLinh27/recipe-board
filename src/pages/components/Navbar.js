@@ -7,7 +7,8 @@ import {
   IconButton, 
   Toolbar,
   Box,
-  Menu, 
+  Menu,
+  MenuItem, 
   useState} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -59,18 +60,23 @@ const Navbar = () => {
               }}
             >
               {navItems.map((item)=>(
-                <Button key={item} class="navbar__buttons" onClick={handleCloseNaMenu}>
+                <MenuItem key={item} onClick={handleCloseNaMenu} class="navbar__buttons">
                   <Typography textAlign="center">
                     {item}
                   </Typography>
-                </Button>
+                </MenuItem>
+        
               ))}
             </Menu>
           </Box>
 
           <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
               {navItems.map((item)=>(
-                <Button key={item} class="navbar__buttons" onClick={handleCloseNaMenu}>
+                <Button 
+                  key={item} 
+                  class="navbar__buttons" 
+                  onClick={handleCloseNaMenu}
+                  sx={{my:2,color:"white",display:"block"}}>
                   <Typography textAlign="center">
                     {item}
                   </Typography>
