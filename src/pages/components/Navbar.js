@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppBar,Container, Toolbar, useState} from '@material-ui/core';
+import {AppBar,Container, Toolbar,Box, useState} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
@@ -25,6 +25,13 @@ const Navbar = () => {
     <AppBar position="static" class="navbar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
+
+          </Box>
+
+          <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
+
+          </Box>
               {navItems.map((item)=>(
                 <Button key={item} class="navbar__buttons">
                   {item}
