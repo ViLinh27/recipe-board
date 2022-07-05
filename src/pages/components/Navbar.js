@@ -17,7 +17,7 @@ import "../../sassyStyles.css";
 const Navbar = () => {
 
   const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
-  const [anchorElNav, setAnchorElNav] = useState(null);
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) =>{
     setAnchorElNav(event.currentTarget);
@@ -58,18 +58,26 @@ const Navbar = () => {
                 display:{xs:"block",md:"none"}
               }}
             >
-
+              {navItems.map((item)=>(
+                <Button key={item} class="navbar__buttons" onClick={handleCloseNaMenu}>
+                  <Typography textAlign="center">
+                    {item}
+                  </Typography>
+                </Button>
+              ))}
             </Menu>
           </Box>
 
           <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
-
-          </Box>
               {navItems.map((item)=>(
-                <Button key={item} class="navbar__buttons">
-                  {item}
+                <Button key={item} class="navbar__buttons" onClick={handleCloseNaMenu}>
+                  <Typography textAlign="center">
+                    {item}
+                  </Typography>
                 </Button>
               ))}
+          </Box>
+              
         </Toolbar>
       </Container>
       {/*xl window*/}
