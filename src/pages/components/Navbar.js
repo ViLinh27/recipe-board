@@ -11,6 +11,7 @@ import {
   MenuItem, 
   useState} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+// import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Link from 'gatsby';
 import "../../sassyStyles.css";
 
@@ -31,6 +32,8 @@ const Navbar = () => {
     <AppBar position="static" class="navbar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          
+          {/*Mobile View*/}
           <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
             <IconButton
               size="large"
@@ -70,6 +73,7 @@ const Navbar = () => {
             </Menu>
           </Box>
 
+          {/*Desktop View*/}
           <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
               {navItems.map((item)=>(
                 <Button 
