@@ -10,7 +10,6 @@ import {
   Menu,
   MenuItem, 
   useState} from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import "../../sassyStyles.css";
@@ -49,7 +48,8 @@ const Navbar = () => {
                 vertical:"bottom",
                 horizontal:"left"
               }}
-              keepMounted transformOrigin = {{
+              keepMounted
+              transformOrigin = {{
                 vertical:"top",
                 horizontal:"left"
               }}
@@ -60,7 +60,7 @@ const Navbar = () => {
               }}
             >
               {navItems.map((item)=>(
-                <MenuItem key={item} onClick={handleCloseNaMenu} class="navbar__buttons">
+                <MenuItem key={item} onClick={handleCloseNaMenu}>
                   <Typography textAlign="center">
                     {item}
                   </Typography>
@@ -70,7 +70,7 @@ const Navbar = () => {
             </Menu>
           </Box>
 
-          <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
+          <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
               {navItems.map((item)=>(
                 <Button 
                   key={item} 
