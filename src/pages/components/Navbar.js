@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppBar, Toolbar} from '@material-ui/core';
+import {AppBar, Toolbar, useState} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
@@ -11,9 +11,19 @@ import "../../sassyStyles.css";
 const Navbar = () => {
 
   const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
+  const [anchorElNav, setAnchorElNav] = useState(null);
+
+  const handleOpenNavMenu = (event) =>{
+    setAnchorElNav(event.currentTarget);
+  }
+
+  const handleCloseNaMenu = (event) =>{
+    setAnchorElNav(null);
+  }
+  
   return (
     <AppBar position="static" class="navbar">
-      <Toolbar>
+      <Toolbar disableGutters>
             {navItems.map((item)=>(
               <Button key={item} class="navbar__buttons">
                 {item}
