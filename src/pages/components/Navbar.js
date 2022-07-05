@@ -32,7 +32,7 @@ const Navbar = () => {
     <AppBar position="static" class="navbar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          
+
           {/*Mobile View*/}
           <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
             <IconButton
