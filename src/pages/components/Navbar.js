@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppBar, Toolbar, useState} from '@material-ui/core';
+import {AppBar,Container, Toolbar, useState} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
@@ -20,16 +20,19 @@ const Navbar = () => {
   const handleCloseNaMenu = (event) =>{
     setAnchorElNav(null);
   }
-  
+
   return (
     <AppBar position="static" class="navbar">
-      <Toolbar disableGutters>
-            {navItems.map((item)=>(
-              <Button key={item} class="navbar__buttons">
-                {item}
-              </Button>
-            ))}
-      </Toolbar>
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+              {navItems.map((item)=>(
+                <Button key={item} class="navbar__buttons">
+                  {item}
+                </Button>
+              ))}
+        </Toolbar>
+      </Container>
+      {/*xl window*/}
     </AppBar>
   );
 };export default Navbar;
