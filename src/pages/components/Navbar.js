@@ -12,7 +12,6 @@ import {
   useState} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 // import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Link from 'gatsby';
 import "../../sassyStyles.css";
 
 const Navbar = () => {
@@ -24,7 +23,7 @@ const Navbar = () => {
     setAnchorElNav(event.currentTarget);
   }
 
-  const handleCloseNaMenu = (event) =>{
+  const handleCloseNavMenu = (event) =>{
     setAnchorElNav(null);
   }
 
@@ -57,13 +56,13 @@ const Navbar = () => {
                 horizontal:"left"
               }}
               open={Boolean(anchorElNav)}
-              onClose={handleCloseNaMenu}
+              onClose={handleCloseNavMenu}
               sx={{
                 display:{xs:"block",md:"none"}
               }}
             >
               {navItems.map((item)=>(
-                <MenuItem key={item} onClick={handleCloseNaMenu}>
+                <MenuItem key={item} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
                     {item}
                   </Typography>
@@ -79,8 +78,9 @@ const Navbar = () => {
                 <Button 
                   key={item} 
                   class="navbar__buttons" 
-                  onClick={handleCloseNaMenu}
-                  sx={{my:2,color:"white",display:"block"}}>
+                  // onClick={handleCloseNavMenu}
+                  // sx={{my:2,color:"white",display:"block"}}
+                >
                   <Typography textAlign="center">
                     {item}
                   </Typography>
