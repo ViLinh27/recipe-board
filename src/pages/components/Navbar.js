@@ -31,7 +31,15 @@ const Navbar = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
-
+            <IconButton
+              size="large"
+              aria-controls="menu-appbar"
+              aria-haspopup = "true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon/>
+            </IconButton>
           </Box>
 
           <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
