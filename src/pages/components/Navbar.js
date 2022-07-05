@@ -14,9 +14,11 @@ import MenuIcon from '@material-ui/icons/Menu';
 // import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "../../sassyStyles.css";
 
+const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
+
 const Navbar = () => {
 
-  const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
+  
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) =>{
@@ -78,8 +80,8 @@ const Navbar = () => {
                 <Button 
                   key={item} 
                   class="navbar__buttons" 
-                  // onClick={handleCloseNavMenu}
-                  // sx={{my:2,color:"white",display:"block"}}
+                  onClick={handleCloseNavMenu}
+                  sx={{my:2,color:"white",display:"block"}}
                 >
                   <Typography textAlign="center">
                     {item}
