@@ -11,15 +11,16 @@ import {
   MenuItem, 
   useState} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+import {Link} from 'gatsby';
 // import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "../../sassyStyles.css";
 
-const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
+// const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
 
 const Navbar = () => {
 
   
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  /* const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) =>{
     setAnchorElNav(event.currentTarget);
@@ -27,15 +28,35 @@ const Navbar = () => {
 
   const handleCloseNavMenu = (event) =>{
     setAnchorElNav(null);
-  }
+  } */
 
   return (
     <AppBar position="static" class="navbar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          
+          <Button class="navbar__buttons" >
+            <Link to="../breakfast">
+              <Typography textAlign="center">Breakfast</Typography>
+            </Link>
+             
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Lunch</Typography>
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Dinner</Typography>
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Sides</Typography>
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Desserts</Typography>
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Snacks</Typography>
+          </Button>
           {/*Mobile View*/}
-          <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
+          {/* <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
             <IconButton
               size="large"
               aria-controls="menu-appbar"
@@ -72,10 +93,10 @@ const Navbar = () => {
         
               ))}
             </Menu>
-          </Box>
+          </Box> */}
 
           {/*Desktop View*/}
-          <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
+          {/* <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
               {navItems.map((item)=>(
                 <Button 
                   key={item} 
@@ -88,11 +109,13 @@ const Navbar = () => {
                   </Typography>
                 </Button>
               ))}
-          </Box>
+          </Box> */}
               
         </Toolbar>
       </Container>
       {/*xl window*/}
     </AppBar>
-  );
-};export default Navbar;
+  )
+}
+
+export default Navbar
