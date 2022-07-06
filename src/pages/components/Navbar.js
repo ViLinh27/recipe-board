@@ -35,7 +35,7 @@ const Navbar = () => {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Button class="navbar__buttons" >
-            <Link to="../breakfast">
+            <Link to="#">
               <Typography textAlign="center">Breakfast</Typography>
             </Link>
              
