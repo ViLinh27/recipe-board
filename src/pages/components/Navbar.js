@@ -38,22 +38,31 @@ const Navbar = () => {
             <Link to="#">
               <Typography textAlign="center">Breakfast</Typography>
             </Link>
-             
           </Button>
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Lunch</Typography>
+            <Link to="#">
+              <Typography textAlign="center">Lunch</Typography>
+            </Link>
           </Button>
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Dinner</Typography>
+            <Link to="#">
+              <Typography textAlign="center">Dinner</Typography>
+            </Link>
           </Button>
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Sides</Typography>
+            <Link to="#">
+              <Typography textAlign="center">Sides</Typography>
+            </Link>
           </Button>
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Desserts</Typography>
+            <Link to="#">
+              <Typography textAlign="center">Desserts</Typography>
+            </Link>
           </Button>
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Snacks</Typography>
+            <Link to="#">
+              <Typography textAlign="center">Snacks</Typography>
+            </Link>
           </Button>
           {/*Mobile View*/}
           {/* <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
