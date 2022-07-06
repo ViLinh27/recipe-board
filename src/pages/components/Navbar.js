@@ -11,30 +11,52 @@ import {
   MenuItem, 
   useState} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+import {Link} from 'gatsby';
 // import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Link from 'gatsby';
 import "../../sassyStyles.css";
+
+// const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
 
 const Navbar = () => {
 
-  const navItems = ['Breakfast','Lunch','Dinner','Sides','Desserts','Snacks'];
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  
+  /* const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) =>{
     setAnchorElNav(event.currentTarget);
   }
 
-  const handleCloseNaMenu = (event) =>{
+  const handleCloseNavMenu = (event) =>{
     setAnchorElNav(null);
-  }
+  } */
 
   return (
     <AppBar position="static" class="navbar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-
+          <Button class="navbar__buttons" >
+            <Link to="../breakfast">
+              <Typography textAlign="center">Breakfast</Typography>
+            </Link>
+             
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Lunch</Typography>
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Dinner</Typography>
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Sides</Typography>
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Desserts</Typography>
+          </Button>
+          <Button class="navbar__buttons" >
+             <Typography textAlign="center">Snacks</Typography>
+          </Button>
           {/*Mobile View*/}
-          <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
+          {/* <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
             <IconButton
               size="large"
               aria-controls="menu-appbar"
@@ -57,13 +79,13 @@ const Navbar = () => {
                 horizontal:"left"
               }}
               open={Boolean(anchorElNav)}
-              onClose={handleCloseNaMenu}
+              onClose={handleCloseNavMenu}
               sx={{
                 display:{xs:"block",md:"none"}
               }}
             >
               {navItems.map((item)=>(
-                <MenuItem key={item} onClick={handleCloseNaMenu}>
+                <MenuItem key={item} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
                     {item}
                   </Typography>
@@ -71,45 +93,29 @@ const Navbar = () => {
         
               ))}
             </Menu>
-          </Box>
+          </Box> */}
 
           {/*Desktop View*/}
-          <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
+          {/* <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
               {navItems.map((item)=>(
-                  <Button 
+                <Button 
                   key={item} 
-                  class="navbar__buttons"
-                  sx={{my:2,color:"white",display:"block"}}>
+                  class="navbar__buttons" 
+                  onClick={handleCloseNavMenu}
+                  sx={{my:2,color:"white",display:"block"}}
+                >
                   <Typography textAlign="center">
                     {item}
                   </Typography>
                 </Button>
               ))}
-          </Box>
-          {/* <Box sx={{flexGrow:1, display:{xs:"none",md:"flex"}}}>
-              <Button class="navbar__buttons" 
-                  onClick={handleCloseNaMenu}
-                  sx={{my:2,color:"white",display:"block"}}>navItems[0]</Button>
-              <Button class="navbar__buttons" 
-                  onClick={handleCloseNaMenu}
-                  sx={{my:2,color:"white",display:"block"}}>navItems[1]</Button>
-              <Button class="navbar__buttons" 
-                  onClick={handleCloseNaMenu}
-                  sx={{my:2,color:"white",display:"block"}}>navItems[2]</Button>
-              <Button class="navbar__buttons" 
-                  onClick={handleCloseNaMenu}
-                  sx={{my:2,color:"white",display:"block"}}>navItems[3]</Button>
-              <Button class="navbar__buttons" 
-                  onClick={handleCloseNaMenu}
-                  sx={{my:2,color:"white",display:"block"}}>navItems[4]</Button>
-              <Button class="navbar__buttons" 
-                  onClick={handleCloseNaMenu}
-                  sx={{my:2,color:"white",display:"block"}}>{navItems[5]}</Button>
           </Box> */}
               
         </Toolbar>
       </Container>
       {/*xl window*/}
     </AppBar>
-  );
-};export default Navbar;
+  )
+}
+
+export default Navbar
