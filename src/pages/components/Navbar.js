@@ -40,9 +40,13 @@ const Navbar = () => {
             </Link>
              
           </Button>
+
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Lunch</Typography>
+            <Link to="../lunch">
+              <Typography textAlign="center">Lunch</Typography>
+            </Link>
           </Button>
+
           <Button class="navbar__buttons" >
              <Typography textAlign="center">Dinner</Typography>
           </Button>
