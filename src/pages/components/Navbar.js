@@ -34,11 +34,16 @@ const Navbar = () => {
     <AppBar position="static" class="navbar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          <Button class="navbar__buttons">
+            <Link to="/">
+              <Typography textAlign="center">Home</Typography>
+            </Link>
+          </Button>
+
           <Button class="navbar__buttons" >
             <Link to="../breakfast">
               <Typography textAlign="center">Breakfast</Typography>
             </Link>
-             
           </Button>
 
           <Button class="navbar__buttons" >
