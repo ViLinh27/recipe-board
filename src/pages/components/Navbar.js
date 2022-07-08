@@ -59,8 +59,11 @@ const Navbar = () => {
           </Button>
 
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Sides</Typography>
+            <Link to="../sides">
+              <Typography textAlign="center">Sides</Typography>
+            </Link>
           </Button>
+          
           <Button class="navbar__buttons" >
              <Typography textAlign="center">Desserts</Typography>
           </Button>
