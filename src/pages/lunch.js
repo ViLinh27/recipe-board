@@ -31,7 +31,8 @@ const Lunch = () => {
             </Typography>
 
             <Typography variant="body1" className="paragraphStyles">
-                intro text
+                The mid-day meal, a break from the monotony of a workday or just an enjoyable meal. It can't be 
+                too filling or suffer the time lost of a midday nap.
             </Typography>
         </div>
        </main>

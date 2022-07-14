@@ -31,7 +31,8 @@ const Dinner = () => {
             </Typography>
 
             <Typography variant="body1" className="paragraphStyles">
-                intro text
+                The evening meal. It can be hearty. It shows the end of the day. Often a family affair if you live
+                back home with family.
             </Typography>
         </div>
        </main>

@@ -31,7 +31,8 @@ const Breakfast = () => {
             </Typography>
 
             <Typography variant="body1" className="paragraphStyles">
-                intro text
+                What should we eat in the morning? What's the most important meal of the day that would not make
+                anyone too sleepy on a workday?
             </Typography>
         </div>
        </main>

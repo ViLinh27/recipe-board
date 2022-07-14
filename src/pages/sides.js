@@ -31,7 +31,7 @@ const Sides = () => {
             </Typography>
 
             <Typography variant="body1" className="paragraphStyles">
-                intro text
+                Smaller serving dishes paired with main dishes. Can be served on their own probably.
             </Typography>
         </div>
        </main>

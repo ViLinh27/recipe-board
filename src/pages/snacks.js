@@ -31,7 +31,8 @@ const Breakfast = () => {
             </Typography>
 
             <Typography variant="body1" className="paragraphStyles">
-                intro text
+                Could be evening snack before the big meal. Could be just because you're not hungry enough for
+                a whole meal. Who knows.
             </Typography>
         </div>
        </main>

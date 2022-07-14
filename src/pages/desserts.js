@@ -31,7 +31,7 @@ const Breakfast = () => {
             </Typography>
 
             <Typography variant="body1" className="paragraphStyles">
-                intro text
+                Sweets. After dinner. Often the best part of the meal :D .
             </Typography>
         </div>
        </main>
