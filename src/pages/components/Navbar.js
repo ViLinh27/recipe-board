@@ -65,10 +65,14 @@ const Navbar = () => {
           </Button>
           
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Desserts</Typography>
+            <Link to="../desserts">
+              <Typography textAlign="center">Desserts</Typography>
+            </Link>
           </Button>
           <Button class="navbar__buttons" >
-             <Typography textAlign="center">Snacks</Typography>
+            <Link to="../snacks">
+              <Typography textAlign="center">Snacks</Typography>
+            </Link>
           </Button>
           {/*Mobile View*/}
           {/* <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
