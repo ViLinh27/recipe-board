@@ -34,35 +34,41 @@ const Navbar = () => {
     <AppBar position="static" class="navbar">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+          <Button class="navbar__buttons">
+            <Link to="/">
+              <Typography textAlign="center">Home</Typography>
+            </Link>
+          </Button>
+
           <Button class="navbar__buttons" >
-            <Link to="#">
+            <Link to="../breakfast">
               <Typography textAlign="center">Breakfast</Typography>
             </Link>
           </Button>
+
           <Button class="navbar__buttons" >
-            <Link to="#">
+            <Link to="../lunch">
               <Typography textAlign="center">Lunch</Typography>
             </Link>
           </Button>
+
           <Button class="navbar__buttons" >
-            <Link to="#">
+            <Link to="../dinner">
               <Typography textAlign="center">Dinner</Typography>
             </Link>
           </Button>
+
           <Button class="navbar__buttons" >
-            <Link to="#">
+            <Link to="../sides">
               <Typography textAlign="center">Sides</Typography>
             </Link>
           </Button>
+          
           <Button class="navbar__buttons" >
-            <Link to="#">
-              <Typography textAlign="center">Desserts</Typography>
-            </Link>
+             <Typography textAlign="center">Desserts</Typography>
           </Button>
           <Button class="navbar__buttons" >
-            <Link to="#">
-              <Typography textAlign="center">Snacks</Typography>
-            </Link>
+             <Typography textAlign="center">Snacks</Typography>
           </Button>
           {/*Mobile View*/}
           {/* <Box sx={{flexGrow:1, display:{xs:"flex",md:"none"}}}>
