@@ -12,7 +12,7 @@ import "../../styles.css";
 import "../../sassyStyles.css";
 import { Link } from "gatsby";
 
-export default function MediaCard() {
+export default function RecipeCard({imageLink, imageAlt, cardTitle, cardDescription, cardLink}) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -31,7 +31,7 @@ export default function MediaCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
+        {/* <Button size="small">Share</Button> */}
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
