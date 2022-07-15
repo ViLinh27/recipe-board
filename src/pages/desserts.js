@@ -9,6 +9,7 @@ import {
   Button,
   Typography,
   Container,
+  Grid,
   IconButton, 
   Toolbar,
   Box,
@@ -26,13 +27,32 @@ const Breakfast = () => {
         </div>
 
         <div className="mainbody">
-            <Typography variant="h1" className="headingStyles">
-                Desserts
-            </Typography>
+           
+             <section className="section header">
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xl={12} lg={12} md={12} sm={12}>
+                            <Typography variant="h1" className="headingStyles">
+                                Desserts
+                            </Typography>
 
-            <Typography variant="body1" className="paragraphStyles">
-                Sweets. After dinner. Often the best part of the meal :D .
-            </Typography>
+                            <Typography variant="body1" className="paragraphStyles">
+                                Sweets. After dinner. Often the best part of the meal :D .
+                            </Typography>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
+            {/*recipe: */}
+             <section className="section header">
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xl={12} lg={12} md={12} sm={12}>
+
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
         </div>
        </main>
     )

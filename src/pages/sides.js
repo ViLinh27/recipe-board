@@ -9,6 +9,7 @@ import {
   Button,
   Typography,
   Container,
+  Grid,
   IconButton, 
   Toolbar,
   Box,
@@ -26,13 +27,33 @@ const Sides = () => {
         </div>
 
         <div className="mainbody">
-            <Typography variant="h1" className="headingStyles">
-                Sides
-            </Typography>
+             <section className="section header">
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xl={12} lg={12} md={12} sm={12}>
+                            <Typography variant="h1" className="headingStyles">
+                                Sides
+                            </Typography>
 
-            <Typography variant="body1" className="paragraphStyles">
-                Smaller serving dishes paired with main dishes. Can be served on their own probably.
-            </Typography>
+                            <Typography variant="body1" className="paragraphStyles">
+                                Smaller serving dishes paired with main dishes. Can be served on their own probably.
+                            </Typography>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
+
+            {/*recipe: */}
+             <section className="section header">
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xl={12} lg={12} md={12} sm={12}>
+
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
+            
         </div>
        </main>
     )
