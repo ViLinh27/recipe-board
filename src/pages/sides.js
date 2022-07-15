@@ -17,6 +17,8 @@ import {
   MenuItem, 
   useState} from '@material-ui/core';
 
+import Recipe from "./components/recipeCard";
+
 const Sides = () => {
     return(
        <main className="pageStyles">
@@ -47,8 +49,14 @@ const Sides = () => {
              <section className="section header">
                 <Container maxWidth="xl">
                     <Grid container spacing={5}>
-                        <Grid item xl={12} lg={12} md={12} sm={12}>
-
+                        <Grid item xl={3} lg={4} md={6} sm={12}>
+                            <Recipe
+                                imageLink=""
+                                imageAlt=""
+                                cardTitle=""
+                                cardDescription=""
+                                cardLink=""
+                            />
                         </Grid>
                     </Grid>
                 </Container>
