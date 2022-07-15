@@ -6,7 +6,6 @@ import {
   CardContent,
   CardMedia
 } from '@mui/material';
-// import Button from '@mui/material/Button';
 
 /*Additional imports*/
 import "../../styles.css";
