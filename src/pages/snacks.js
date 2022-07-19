@@ -59,6 +59,24 @@ const Breakfast = () => {
                                 cardLink=""
                             />
                         </Grid>
+                        <Grid item xl={3} lg={4} md={6} sm={12}>
+                            <Recipe
+                                imageLink=""
+                                imageAlt=""
+                                cardTitle=""
+                                cardDescription=""
+                                cardLink=""
+                            />
+                        </Grid>
+                        <Grid item xl={3} lg={4} md={6} sm={12}>
+                            <Recipe
+                                imageLink=""
+                                imageAlt=""
+                                cardTitle=""
+                                cardDescription=""
+                                cardLink=""
+                            />
+                        </Grid>
                     </Grid>
                 </Container>
             </section>
