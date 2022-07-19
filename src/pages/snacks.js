@@ -52,29 +52,29 @@ const Breakfast = () => {
                     <Grid container spacing={5}>
                         <Grid item xl={3} lg={4} md={6} sm={12}>
                             <Recipe
-                                imageLink=""
-                                imageAlt=""
-                                cardTitle=""
-                                cardDescription=""
-                                cardLink=""
+                                imageLink="https://assets.epicurious.com/photos/592460f0f0fad567624a162a/master/w_1280,c_limit/Eggless-Cookie-Dough-with-Variations-18052017.jpg"
+                                imageAlt="Edible Cookie Dough with Variations"
+                                cardTitle="Edible Cookie Dough with Variations"
+                                cardDescription="Don't really like the idea of eating raw cookie dough. But this recipe looks fun to at least try."
+                                cardLink="https://www.epicurious.com/recipes/food/views/eggless-edible-cookie-dough-with-variations"
                             />
                         </Grid>
                         <Grid item xl={3} lg={4} md={6} sm={12}>
                             <Recipe
-                                imageLink=""
-                                imageAlt=""
-                                cardTitle=""
-                                cardDescription=""
-                                cardLink=""
+                                imageLink="https://assets.epicurious.com/photos/5b16fb0e3674e370f3a0ce11/master/w_960,c_limit/cinnamon-oat-peach-crisp-recipe-BA-060518.jpg"
+                                imageAlt="Cinnamon-Oat Peach Crisp"
+                                cardTitle="Cinnamon-Oat Peach Crisp"
+                                cardDescription="Peaches are always good."
+                                cardLink="https://www.epicurious.com/recipes/food/views/cinnamon-oat-peach-crisp"
                             />
                         </Grid>
                         <Grid item xl={3} lg={4} md={6} sm={12}>
                             <Recipe
-                                imageLink=""
-                                imageAlt=""
-                                cardTitle=""
-                                cardDescription=""
-                                cardLink=""
+                                imageLink="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2021/08/Rose-Tteokbokki.jpg?resize=720%2C1080&ssl=1"
+                                imageAlt="Rose Tteokbokki"
+                                cardTitle="Rose Tteokbokki"
+                                cardDescription="A delicious variant to an already great snack"
+                                cardLink="https://www.angsarap.net/2021/10/11/rose-tteokbokki/"
                             />
                         </Grid>
                     </Grid>

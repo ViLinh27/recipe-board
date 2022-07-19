@@ -54,7 +54,7 @@ const Desserts = () => {
                                 imageLink="https://assets.epicurious.com/photos/54ad779119925f464b3b88b1/master/w_1280,c_limit/51186410_kiwi-lime-pie_1x1.jpg"
                                 imageAlt="Kiwi Lime Pie"
                                 cardTitle="Kiwi Lime Pie"
-                                cardDescription=""
+                                cardDescription="Lime is a good flavor in pie, so kiwi seems like an interesting addition to it."
                                 cardLink="https://www.epicurious.com/recipes/food/views/kiwi-lime-pie-51186410"
                             />
                         </Grid>
