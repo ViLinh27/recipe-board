@@ -19,6 +19,8 @@ import {
 
 import Recipe from "./components/recipeCard";
 
+import EggSandwitch from "../images/high_protein_egg_sandwich.jpg";
+
 const Lunch = () => {
     return(
        <main className="pageStyles">
@@ -62,7 +64,32 @@ const Lunch = () => {
                     </Grid>
                 </Container>
             </section>
-            
+            <section className="section header">
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xl={12} lg={12} md={6} sm={12}>
+                            <Typography variant="h4" className="headingStyles">
+                                Instagram
+                            </Typography>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
+            <section className="section header">
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xl={3} lg={4} md={6} sm={12}>
+                            <Recipe
+                                imageLink={EggSandwitch}
+                                imageAlt="High Protein Egg Sandwitch"
+                                cardTitle="High Protein Egg Sandwitch"
+                                cardDescription="Eggs are always a good source of protein1"
+                                cardLink="https://www.instagram.com/p/CcGvQ51jDBb/"
+                            />
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
         </div>
        </main>
     )
