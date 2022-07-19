@@ -52,11 +52,11 @@ const Lunch = () => {
                     <Grid container spacing={5}>
                         <Grid item xl={3} lg={4} md={6} sm={12}>
                             <Recipe
-                                imageLink=""
-                                imageAlt=""
-                                cardTitle=""
-                                cardDescription=""
-                                cardLink=""
+                                imageLink="https://assets.epicurious.com/photos/55c399f8a9c6a0784e28f683/master/w_1280,c_limit/56389909_sweet-potato-avocado-burger_6x4.jpg"
+                                imageAlt="Sweet Potato Avocado Burger"
+                                cardTitle="Sweet Potato Avocado Burger"
+                                cardDescription="I enjoy burgers, sweet potato, and avocado, so this looks like a must to try."
+                                cardLink="https://www.epicurious.com/recipes/food/views/sweet-potato-avocado-burger-56389909"
                             />
                         </Grid>
                     </Grid>
