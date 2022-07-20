@@ -19,6 +19,8 @@ import {
 
 import Recipe from "./components/recipeCard";
 
+import GarlicBeans from "../images/garlic-green-beans.jpg";
+
 const Sides = () => {
     return(
        <main className="pageStyles">
@@ -46,7 +48,7 @@ const Sides = () => {
             </section>
 
             {/*recipe: */}
-             <section className="section header">
+             {/* <section className="section header">
                 <Container maxWidth="xl">
                     <Grid container spacing={5}>
                         <Grid item xl={3} lg={4} md={6} sm={12}>
@@ -56,6 +58,32 @@ const Sides = () => {
                                 cardTitle=""
                                 cardDescription=""
                                 cardLink=""
+                            />
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section> */}
+            <section className="section header">
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xl={12} lg={12} md={6} sm={12}>
+                            <Typography variant="h4" className="headingStyles">
+                                Instagram
+                            </Typography>
+                        </Grid>
+                    </Grid>
+                </Container>
+            </section>
+            <section className="section header">
+                <Container maxWidth="xl">
+                    <Grid container spacing={5}>
+                        <Grid item xl={3} lg={4} md={6} sm={12}>
+                            <Recipe
+                                imageLink={GarlicBeans}
+                                imageAlt="Garlic Green Beans"
+                                cardTitle="Garlic Green Beans"
+                                cardDescription="Can't go wrong with adding garlic to something"
+                                cardLink="https://www.instagram.com/p/CTpcPbrJfvt/"
                             />
                         </Grid>
                     </Grid>
