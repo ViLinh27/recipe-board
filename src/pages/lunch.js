@@ -20,6 +20,9 @@ import {
 import Recipe from "./components/recipeCard";
 
 import EggSandwitch from "../images/high_protein_egg_sandwich.jpg";
+import EggAndTomato from "../images/Stir-fried-egg-and-tomatoes.jpg";
+import CarbonaraUdon from "../images/carbonara-udon.jpg";
+import KimchiFriedRice from "../images/kimchi-fried-rice.jpg";
 
 const Lunch = () => {
     return(
@@ -83,8 +86,35 @@ const Lunch = () => {
                                 imageLink={EggSandwitch}
                                 imageAlt="High Protein Egg Sandwitch"
                                 cardTitle="High Protein Egg Sandwitch"
-                                cardDescription="Eggs are always a good source of protein1"
+                                cardDescription="Eggs are always a good source of protein!"
                                 cardLink="https://www.instagram.com/p/CcGvQ51jDBb/"
+                            />
+                        </Grid>
+                        <Grid item xl={3} lg={4} md={6} sm={12}>
+                            <Recipe
+                                imageLink={EggAndTomato}
+                                imageAlt="Stir-fried egg and tomatoes"
+                                cardTitle="Stir-Fried Egg and Tomatoes"
+                                cardDescription="Eggs are always a good source of protein!"
+                                cardLink="https://www.instagram.com/p/CR1uknLj4x5/"
+                            />
+                        </Grid>
+                        <Grid item xl={3} lg={4} md={6} sm={12}>
+                            <Recipe
+                                imageLink={CarbonaraUdon}
+                                imageAlt="Carbonara Udon"
+                                cardTitle="Carbonara Udon"
+                                cardDescription="An interesting use of udon noodles"
+                                cardLink="https://www.instagram.com/p/CRcAArgDP8Y/"
+                            />
+                        </Grid>
+                        <Grid item xl={3} lg={4} md={6} sm={12}>
+                            <Recipe
+                                imageLink={KimchiFriedRice}
+                                imageAlt="Kimchi Fried Rice"
+                                cardTitle="Kimchi Fried Rice"
+                                cardDescription="A classic recipe!"
+                                cardLink="https://www.instagram.com/p/CRMgdwWjyaH/"
                             />
                         </Grid>
                     </Grid>
