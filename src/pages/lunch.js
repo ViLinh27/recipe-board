@@ -71,7 +71,7 @@ const Lunch = () => {
                 <Container maxWidth="xl">
                     <Grid container spacing={5}>
                         <Grid item xl={12} lg={12} md={6} sm={12}>
-                            <Typography variant="h4" className="headingStyles">
+                            <Typography variant="h4" className="headingStyles" id="instagram-lunch">
                                 Instagram
                             </Typography>
                         </Grid>

@@ -1,15 +1,19 @@
+//import { menuItems } from "../menuItems";
+import MenuItems from "./MenuItems";
+
 import React from 'react';
 import {
   AppBar,
   Button,
   Typography,
   Container,
-  IconButton, 
+  //IconButton, 
   Toolbar,
-  Box,
-  Menu,
-  MenuItem, 
-  useState} from '@material-ui/core';
+  //Box,
+  //Menu,
+  //MenuItem, 
+  //useState
+} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import {Link} from 'gatsby';
 // import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
